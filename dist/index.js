@@ -16,9 +16,9 @@ var RNBLEPrinter = NativeModules.RNBLEPrinter;
 var RNNetPrinter = NativeModules.RNNetPrinter;
 var textTo64Buffer = function (text, opts) {
     var defaultOptions = {
-        beep: false,
+ //       beep: false,
         cut: false,
-        tailingLine: false,
+ //       tailingLine: false,
         encoding: "UTF8",
     };
     var options = __assign(__assign({}, defaultOptions), opts);
